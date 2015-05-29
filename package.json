@@ -1,0 +1,23 @@
+{
+  "name": "flux-perf",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Flux perf testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm start"
+  },
+  "author": "Michael Ridgway <mridgway@yahoo-inc.com>",
+  "license": "BSD",
+  "dependencies": {
+    "alt": "^0.16.6",
+    "babel": "^5.4.0",
+    "benchtable": "mridgway/benchtable#functionOptions",
+    "es6-promise": "^2.1.1",
+    "flummox": "^4.0.0-alpha2",
+    "flux": "^2.0.3",
+    "fluxible": "^0.4.8",
+    "react": "^0.13.3"
+  }
+}
