@@ -5,7 +5,7 @@
   "description": "Flux perf testing",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=production node index.js",
     "test": "npm start"
   },
   "author": "Michael Ridgway <mridgway@yahoo-inc.com>",
